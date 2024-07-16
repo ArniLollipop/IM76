@@ -84,3 +84,20 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.outlined-text {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 3px #061651;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.section {
+  margin-top: 190px;
+  padding-bottom: 50px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
