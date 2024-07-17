@@ -15,6 +15,7 @@ export default function Home() {
       <MainFeatures />
       <MainPrices />
       <MainFeedback />
+      <MainCaution />
     </main>
   );
 }

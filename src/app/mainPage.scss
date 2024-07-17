@@ -323,7 +323,116 @@
 }
 
 .feedback {
+	margin-top: calc(190px + 80px);
 	background:
-		url("/feedbackBg.png") lightgray 0 -890.5px / 100% 248.92% no-repeat,
+		url("/feedbackBg.webp") top center / cover no-repeat,
 		#061651;
+	position: relative;
+
+	h3 {
+		color: #fff;
+		font-family: "Helvetica Neue";
+		font-size: 120px;
+		font-style: normal;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		color: white;
+		.outlined-text {
+			-webkit-text-fill-color: transparent;
+			-webkit-text-stroke: 2px #fff;
+		}
+	}
+
+	&-right__h3 {
+		margin-top: 40px;
+		text-align: right;
+	}
+
+	.transparent-text {
+		background:
+			url("/feedbackBg.webp") top center / cover no-repeat,
+			#061651;
+		position: absolute;
+		-webkit-background-clip: text !important;
+		color: transparent;
+		background-size: cover;
+		white-space: nowrap;
+		font-family: "Helvetica Neue";
+		font-size: 120px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: 80%; /* 68.4px */
+		text-transform: uppercase;
+		top: -85px;
+	}
+	&-info {
+		margin-top: 100px;
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+
+	&-info__top {
+	}
+
+	&-info__one {
+		max-width: 530px;
+		position: relative;
+		padding-left: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&::before {
+			content: "";
+			height: 100%;
+			width: 4px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #ffcc1b;
+		}
+
+		h4 {
+			color: #fff;
+			font-family: "Helvetica Neue";
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 130%; /* 31.2px */
+		}
+		p {
+			margin-top: 8px;
+			color: white;
+		}
+		img {
+			margin-top: 15px;
+		}
+	}
+
+	&-trusted {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+		margin-top: 48px;
+
+		li {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+
+			max-width: 150px;
+
+			p {
+				text-align: center;
+				color: white;
+				text-transform: capitalize;
+			}
+		}
+	}
 }
