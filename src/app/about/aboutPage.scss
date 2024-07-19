@@ -1,0 +1,47 @@
+.about {
+	&-section {
+		background:
+			linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+			url("/aboutBg.png") lightgray 50% / cover no-repeat;
+	}
+
+	&-title {
+		h1 {
+			color: #fff;
+			font-size: 72px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: normal;
+			letter-spacing: -3.6px;
+			text-transform: uppercase;
+			max-width: 500px;
+		}
+		p {
+			max-width: 368px;
+			margin-top: 24px;
+			color: white;
+		}
+	}
+
+	&-title__bottom {
+		margin-top: 100px;
+		margin-left: auto;
+		display: block;
+		max-width: 489px;
+
+		p {
+			color: white;
+			text-align: right;
+		}
+	}
+}
+
+.sectors {
+	h1 {
+		color: #061651;
+		font-size: 72px;
+		font-weight: 800;
+		line-height: 100%;
+		text-transform: uppercase;
+	}
+}

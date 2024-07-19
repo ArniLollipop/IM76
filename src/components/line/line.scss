@@ -1,0 +1,37 @@
+.main {
+	&-caution {
+		display: flex;
+		background: #ffcc1b;
+		padding: 24px 0px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	&-caution__container {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+		width: 100%;
+		animation: slide-infinite 10s linear infinite;
+	}
+
+	&-caution__text {
+		color: #181818;
+		font-family: "Helvetica Neue";
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: normal;
+		text-transform: uppercase;
+		text-wrap: nowrap;
+	}
+}
+
+@keyframes slide-infinite {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}

@@ -115,6 +115,10 @@ textarea {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .outlined-text {

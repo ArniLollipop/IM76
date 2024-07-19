@@ -1,4 +1,6 @@
-export default function AboutUs() {
+import "./numbers.scss";
+
+export default function Numbers() {
   const numbersList = [
     {
       title: "50k",

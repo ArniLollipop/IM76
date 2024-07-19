@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./header.scss";
 import Image from "next/image";
 
@@ -9,22 +10,22 @@ export default function Header() {
       <nav>
         <ul className="header-list">
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/about">dealers</a>
-          </li>
-
-          <li>
-            <a href="/about">law inforcement</a>
+            <Link href="/about">dealers</Link>
           </li>
 
           <li>
-            <a href="/about">about us</a>
+            <Link href="/about">law inforcement</Link>
           </li>
 
           <li>
-            <a href="/about">contact</a>
+            <Link href="/about">about us</Link>
+          </li>
+
+          <li>
+            <Link href="/about">contact</Link>
           </li>
         </ul>
       </nav>

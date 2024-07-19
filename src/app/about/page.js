@@ -1,3 +1,24 @@
+import Line from "@/components/line/line";
+import "../mainPage.scss";
+import "./aboutPage.scss";
+
+import AboutHero from "@/components/about/hero";
+import AboutSector from "@/components/about/sector";
+import Form from "@/components/form/form";
+import Footer from "@/components/footer/footer";
+import Numbers from "@/components/numbers/numbers";
+import Trusted from "@/components/trusted/trusted";
+
 export default function About() {
-  return <div className="content-grid">About</div>;
+  return (
+    <main>
+      <AboutHero />
+      <Line text="About us" />
+      <AboutSector />
+      <Form />
+      <Numbers />
+      <Trusted />
+      <Footer />
+    </main>
+  );
 }

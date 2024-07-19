@@ -1,9 +1,11 @@
 "use client";
 
+import "./form.scss";
+
 import { useState } from "react";
 import Image from "next/image";
 
-export default function MainForm() {
+export default function Form() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

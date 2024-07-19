@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Products from "../products/products";
 
 export default function MainSectors() {
   const sectorsList = [
@@ -32,14 +33,7 @@ export default function MainSectors() {
         </h3>
         <Image src="/sectors.png" alt="Sectors" width={415} height={415} />
       </div>
-      <ul className="sectors-list">
-        {sectorsList.map((sector, index) => (
-          <li className="sectors-list__one" key={index}>
-            <Image src={sector.svg} alt={sector.text} width={75} height={75} />
-            <p>{sector.text}</p>
-          </li>
-        ))}
-      </ul>
+      <Products sectorsList={sectorsList} colCount={4} />
     </section>
   );
 }
