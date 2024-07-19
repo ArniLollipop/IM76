@@ -16,11 +16,11 @@ export default function AboutSector() {
 
   return (
     <section className="sectors section container">
-      <h1>
+      <h2>
         <span className="outlined-text">safety</span> products{" "}
         <span className="outlined-text"> for </span> multiple
         <span className="outlined-text">sectors</span>
-      </h1>
+      </h2>
       <Products sectorsList={sectorsList} colCount={5} />
     </section>
   );

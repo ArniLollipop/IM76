@@ -8,6 +8,7 @@ import Form from "@/components/form/form";
 import Footer from "@/components/footer/footer";
 import Numbers from "@/components/numbers/numbers";
 import Trusted from "@/components/trusted/trusted";
+import AboutAdvantages from "@/components/about/advantages";
 
 export default function About() {
   return (
@@ -16,6 +17,7 @@ export default function About() {
       <Line text="About us" />
       <AboutSector />
       <Form />
+      <AboutAdvantages />
       <Numbers />
       <Trusted />
       <Footer />
