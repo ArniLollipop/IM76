@@ -51,7 +51,7 @@ export default function MainFeedback() {
                 src="/trusted2.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted2.png"
               />
               <p>magen david adom</p>
             </li>
@@ -60,7 +60,7 @@ export default function MainFeedback() {
                 src="/trusted3.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted3.png"
               />
               <p>israel ministry of health</p>
             </li>
@@ -69,7 +69,7 @@ export default function MainFeedback() {
                 src="/trusted4.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted4.png"
               />
               <p>israel police</p>
             </li>
@@ -78,7 +78,7 @@ export default function MainFeedback() {
                 src="/trusted5.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted5.png"
               />
               <p>israel defense forces</p>
             </li>
@@ -87,7 +87,7 @@ export default function MainFeedback() {
                 src="/trusted6.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted6.png"
               />
               <p>mossad</p>
             </li>
@@ -96,7 +96,7 @@ export default function MainFeedback() {
                 src="/trusted7.png"
                 width={90}
                 height={87}
-                alt="trusted1.png"
+                alt="trusted7.png"
               />
               <p>usa department of defense</p>
             </li>

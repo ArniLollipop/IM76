@@ -66,6 +66,38 @@ button {
   gap: 10px;
 }
 
+input,
+textarea {
+  outline: none;
+  resize: none;
+  display: flex;
+  padding: 11px 80px 11px 14px;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.5);
+
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &::placeholder {
+    color: #fff;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+textarea {
+  min-height: 100px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -109,4 +141,15 @@ button {
   font-weight: 800;
   line-height: 100%;
   text-transform: uppercase;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+a {
+  color: #fff;
+  &:hover {
+    color: white;
+  }
 }

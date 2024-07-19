@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="header container">
-      <Image src="/Logo.png" width={80} height={30} />
+      <Image src="/Logo.png" width={80} height={30} alt="logo" />
 
       <nav>
         <ul className="header-list">

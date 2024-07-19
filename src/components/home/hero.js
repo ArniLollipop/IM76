@@ -11,6 +11,7 @@ export default function MainHero() {
           width={586}
           height={611}
           className="main-bg__mask full-width"
+          alt="mainMask"
         />
         <h1 className="main-title">Facing The future Of Defense</h1>
         <div className="main-offer">
