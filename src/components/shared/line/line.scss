@@ -5,6 +5,13 @@
 		padding: 24px 0px;
 		width: 100%;
 		overflow: hidden;
+		@media screen and (max-width: 1024px) {
+			padding: 20px 0px;
+		}
+
+		@media screen and (max-width: 768px) {
+			padding: 18px 0px;
+		}
 	}
 
 	&-caution__container {
@@ -24,6 +31,14 @@
 		line-height: normal;
 		text-transform: uppercase;
 		text-wrap: nowrap;
+
+		@media screen and (max-width: 1024px) {
+			font-size: 20px;
+		}
+
+		@media screen and (max-width: 768px) {
+			font-size: 14px;
+		}
 	}
 }
 

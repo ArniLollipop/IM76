@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "../header/header";
 
 export default function AboutHero() {
@@ -6,14 +5,14 @@ export default function AboutHero() {
     <section className="main-section about-section">
       <Header />
       <div className="main-inner container">
-        <div className="about-title">
+        <div className="hero-title">
           <h1>masaDA HLS: Leading the Way in CBRN Protection</h1>
           <p>
             The gas masks currently in use were developed years ago and have not
             been updated to take advantage of recent technological advancements.
           </p>
         </div>
-        <div className="about-title__bottom">
+        <div className="hero-title__bottom">
           <p>
             During the last decade, the perception of the threat from chemical,
             biological, radiological, and nuclear (CBRN) warfare agents has

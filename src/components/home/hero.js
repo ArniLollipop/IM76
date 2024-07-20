@@ -5,6 +5,21 @@ export default function MainHero() {
   return (
     <section className="main-section">
       <Header />
+      <Image
+        src="/mainSectionLeft.png"
+        height={920}
+        width={1024}
+        alt="mainSectionLeft"
+        className="main-bg__left"
+      />
+
+      <Image
+        src="/mainSectionRight.png"
+        height={920}
+        width={1024}
+        alt="mainSectionRight"
+        className="main-bg__right"
+      />
       <div className="main-inner container">
         <Image
           src="/mainMask.png"
@@ -13,6 +28,7 @@ export default function MainHero() {
           className="main-bg__mask full-width"
           alt="mainMask"
         />
+
         <h1 className="main-title">Facing The future Of Defense</h1>
         <div className="main-offer">
           <div className="main-offer__left">

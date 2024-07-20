@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Products from "../products/products";
+import Products from "../shared/products/products";
 
 export default function MainSectors() {
   const sectorsList = [

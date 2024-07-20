@@ -1,4 +1,4 @@
-"use client"; // Добавьте эту строку
+"use client";
 
 import { useRef, useEffect } from "react";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function MainAdvantages() {
+export default function Advantages(props) {
   return (
     <section className="advantages container section">
       <div className="advantages-flex">
@@ -8,10 +8,22 @@ export default function MainAdvantages() {
           <span className="outlined-text"> All in one</span> multi <br />{" "}
           featured <br /> platform
         </h3>
-        <Image src="/glass.png" width={231} height={119} alt="glass" />
+        <Image
+          src="/glass.png"
+          width={231}
+          height={119}
+          alt="glass"
+          className="advantages-flex__img"
+        />
       </div>
       <div className="advantages-flex">
-        <Image src="/advantage.png" width={537} height={356} alt="advantage" />
+        <Image
+          src={props.img}
+          width={537}
+          height={356}
+          alt="advantages-list__img"
+          className="advantages-list__img"
+        />
         <ul className="advantages-list">
           <li className="advantages-list__one">
             <p className="advantages-list__count">01</p>

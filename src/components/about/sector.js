@@ -1,4 +1,4 @@
-import Products from "../products/products";
+import Products from "../shared/products/products";
 
 export default function AboutSector() {
   const sectorsList = [

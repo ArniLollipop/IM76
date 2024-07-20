@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Trusted from "../trusted/trusted";
+import Trusted from "../shared/trusted/trusted";
 
 export default function MainFeedback() {
   return (
