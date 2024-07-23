@@ -1,55 +1,52 @@
 "use client";
 
 import Link from "next/link";
-import "./header.scss";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
-  const pathname = usePathname();
-
   return (
-    <header className="header container">
-      <Image src="/Logo.png" width={80} height={30} alt="logo" />
-
-      <nav>
-        <ul className="header-list">
-          <li>
-            <Link className={pathname == "/" && "active"} href="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={pathname == "/dealers" && "active"}
-              href="/dealers">
-              dealers
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              className={pathname == "/law-inforcement" && "active"}
-              href="/law-inforcement">
-              law inforcement
-            </Link>
-          </li>
-
-          <li>
-            <Link className={pathname == "/about" && "active"} href="/about">
-              about us
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              className={pathname == "/contact" && "active"}
-              href="/contact">
-              contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <header className="header">
+      <div className="container">
+        <div className="header__inner">
+          <Link href="/" className="header__logo">
+            <img src="/img/logo.svg" alt="logo" />
+          </Link>
+          <div className="header__menu menu">
+            <button type="button" className="menu__icon icon-menu">
+              <span></span>
+            </button>
+            <nav className="menu__body">
+              <ul className="menu__list">
+                <li className="menu__item">
+                  <Link href="/" className="menu__link active">
+                    home
+                  </Link>
+                </li>
+                <li className="menu__item">
+                  <Link href="/dealers" className="menu__link">
+                    dealers
+                  </Link>
+                </li>
+                <li className="menu__item">
+                  <Link href="/law-inforcement" className="menu__link">
+                    law inforcement
+                  </Link>
+                </li>
+                <li className="menu__item">
+                  <Link href="/about" className="menu__link">
+                    about us
+                  </Link>
+                </li>
+                <li className="menu__item">
+                  <Link href="/contact" className="menu__link">
+                    contact
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }
